@@ -1,0 +1,33 @@
+/*Mobile style (default) */
+.Row {
+    margin: 20px;
+    border-bottom: 1px red solid;
+  }
+
+  .Row span{
+    margin: 20px;
+  }
+
+/*Tablet style (default) */
+@media (min-width: 768px) {
+    .Row {
+        margin: 30px;
+        border-bottom: 1px green solid;
+      }
+    
+      .Row span{
+        margin: 30px;
+      }
+}
+
+ /*Desktop style (default) */
+ @media (min-width: 1024px) {
+    .Row {
+        margin: 40px;
+        border-bottom: 1px black solid;
+      }
+    
+      .Row span{
+        margin: 40px;
+      }
+ }
